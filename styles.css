@@ -7,3 +7,12 @@
 .transition-button:hover{
     background-color: green;
 }
+.transition-div{
+    transition: all;
+    background-color: aqua;
+    transition-duration: 1s;
+    width: 100px;
+}
+.transition-div:hover{
+    width: 200px;
+}
