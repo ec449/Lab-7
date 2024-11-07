@@ -20,7 +20,16 @@
     background-color: chartreuse;
     transition-duration: 0.3s;
     font-size: 16px;
+    transition: all;
 }
 .transition-text:hover{
     font-size: 24px;
+}
+.transition-image{
+    opacity: 1;
+    transition-duration: 0.8s;
+    transition:all;
+}
+.transition-image:hover{
+    opacity:0.5;
 }
